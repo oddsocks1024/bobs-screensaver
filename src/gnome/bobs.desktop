@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Bobs
+Comment=The Bobs Screen Saver
+TryExec=bobs
+Exec=bobs
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+OnlyShowIn=GNOME;

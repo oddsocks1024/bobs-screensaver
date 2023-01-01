@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<screensaver name="bobs" _label="Bobs">
+
+    <command arg=""/>
+
+    <number id="switch" type="slider" arg="-switch %"
+        _label="Switch Effect (secs)" _low-label="30" _high-label="600"
+        low="30" high="600" default="60"/>
+
+    <number id="bobnum" type="slider" arg="-bobnum %"
+        _label="Number of Bobs" _low-label="100" _high-label="2000"
+        low="100" high="2000" default="500"/>
+
+    <_description>
+A simple screensaver which displays animated 'Bobs'
+
+Written by Ian Chapman; 2009.
+    </_description>
+
+</screensaver>
+

@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name=Bobs (GL)
+Comment=The Bobs Screen Saver
+TryExec=bobs
+Exec=bobs
+StartupNotify=false
+Terminal=false
+Type=Service
+Icon=kscreensaver
+X-KDE-ServiceTypes=ScreenSaver
+X-KDE-Category=OpenGL Screen Savers
+X-KDE-Type=OpenGL
+Actions=InWindow;Root;Setup;
+
+[Desktop Action Setup]
+Exec=kxsconfig bobs
+Name=Setup...
+
+[Desktop Action InWindow]
+Exec=bobs -window-id %w
+Name=Display in specified window
+
+[Desktop Action Root]
+Exec=bobs -window-id %w
+Name=Display in Root Window
+NoDisplay=true
+

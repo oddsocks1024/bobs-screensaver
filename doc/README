@@ -1,0 +1,54 @@
+THE BOBS SCREENSAVER
+
+1. WHAT IS IT?
+A simple screensaver for Linux and UNIX which displays animated 'Bobs'
+
+
+2. HOW TO USE BOBS
+If Bobs compiles and installs successfully for you, then it should be
+available from the gnome-screensaver-preferences program or available in the
+KDE screensaver preferences. Xscreensaver is supported, but requires manual
+installation.
+
+
+3. FAQ
+
+    * Which screensaver systems are supported?
+    - Officially Gnome 2, KDE 4 and XScreensaver. Others might work but have
+      not been tested.
+
+    * The 'Bobs' don't show correctly, I just get coloured circles, squares or
+      a black screen, why?
+    - Your implementation of OpenGL is not at least version 1.5 or doesn't
+      support point sprites.
+
+    * I can't access the configuration or setup options, why?
+    - You should be able to configure the screensaver if you're using
+      XScreensaver.
+    - Configuring the screensaver under KDE is only supported, if the
+      XScreensaver configuration files are installed.
+    - The Gnome screensaver system, does not support screensaver configuration.
+
+    * I'm running KDE or Gnome and Bobs compiled and installed, but I can't
+      find it in the screensaver list. Any ideas?
+    - Some distributions replace Gnome's or KDE's native screensaver system
+      with Xscreensaver. Try following install instructions for Xscreensaver
+    - You may need to specify the correct install prefix with configure.
+      Bobs is installed in /usr/local by default if no prefix is specified,
+      which may be incorrect for your operating system.
+
+    * Why does support for Xscreensaver need to be installed manually?
+    - Xscreensaver does not appear to provide a mechanism to detect where its
+      screensavers and configuration files should be installed and I haven't
+      found a method which works safely and reliably across all supported
+      operating systems.
+
+    * Is KDE 3 supported?
+    - Not officially. Bob's build system is not setup for KDE 3.
+      However with some manual intervention you can probably get it working.
+
+    * Where do I send bug reports?
+    - See the AUTHORS file.
+
+    * Where do I send patches/contributions?
+    - See the AUTHORS file.
