@@ -1,4 +1,4 @@
-# bobs-screensaver
+# Bobs Screensaver
 ## Summary
 
 An OpenGL particles screensaver for Linux and UNIX-like systems which feels
@@ -12,4 +12,3 @@ OpenBSD and OpenSolaris
 - Last Update: 2012-06-01
 - Language: C
 - OS: Linux and UNIX-like
-
